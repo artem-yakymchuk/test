@@ -3,6 +3,8 @@
 3. Run `composer install`
 4. Run `php bin/console doctrine:database:create` 
 5. Run `php bin/console doctrine:migrations:migrate` 
+6. Run `php bin/console server:start` 
+
 
 List of endpoints:
   classroom_list           GET                /classroom
