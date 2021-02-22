@@ -6,9 +6,15 @@
 
 List of endpoints:
   classroom_list           GET                /classroom
+  
   classroom_get_active     GET                /classroom/active
+  
   classroom_get            GET                /classroom/{id}
+  
   classroom_create         POST               /classroom
+  
   classroom_update         PUT                /classroom/{id}
+  
   classroom_delete         DELETE             /classroom/{id}
+  
   classroom_toggle_state   PATCH              /classroom/{id}
